@@ -25,4 +25,7 @@ Route::get('/listusers/profil', 'HomeController@lookProfil')->name('profil-user'
 
 Route::get('/listusers/profil/{email}', 'HomeController@lookEmail')->name('profil-email');
 
-route::get('/ajout_de_message', 'MessageController@show');
+route::get('article', 'ArticleController@show');
+route::post('article', 'ArticleController@store');
+
+route::get('listing', 'ArticleController@listing');

@@ -90,7 +90,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="<?php echo e(url('listusers')); ?>">liste user</a>
-
+                    <a href="<?php echo e(url('message')); ?>">ajout de message</a>
                 </div>
             </div>
         </div>
